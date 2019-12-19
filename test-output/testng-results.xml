@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hotels Test Sanity Suite" duration-ms="253628" started-at="2019-12-19T17:54:14Z" finished-at="2019-12-19T17:58:28Z">
+    <groups>
+    </groups>
+    <test name="Hotels Sanity Test" duration-ms="253628" started-at="2019-12-19T17:54:14Z" finished-at="2019-12-19T17:58:28Z">
+      <class name="com.hotels.tests.SearchFor5starHotelTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hotels.tests.SearchFor5starHotelTest@57baeedf]" name="setup" is-config="true" duration-ms="21320" started-at="2019-12-19T17:54:38Z" finished-at="2019-12-19T17:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fiveStars()[pri:1, instance:com.hotels.tests.SearchFor5starHotelTest@57baeedf]" name="fiveStars" duration-ms="48784" started-at="2019-12-19T17:54:59Z" description="This method searches for 5star hotels with distance less than 10 miles from city center and gives lists of hotels and their distance from center" finished-at="2019-12-19T17:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fiveStars -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotels.tests.SearchFor5starHotelTest@57baeedf]" name="tearDown" is-config="true" duration-ms="640" started-at="2019-12-19T17:55:48Z" finished-at="2019-12-19T17:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hotels.tests.SearchFor5starHotelTest -->
+      <class name="com.hotels.tests.SearchFor4starHotelTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hotels.tests.SearchFor4starHotelTest@343f4d3d]" name="setup" is-config="true" duration-ms="20735" started-at="2019-12-19T17:55:48Z" finished-at="2019-12-19T17:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fourStars()[pri:1, instance:com.hotels.tests.SearchFor4starHotelTest@343f4d3d]" name="fourStars" duration-ms="48260" started-at="2019-12-19T17:56:09Z" description="This method searches for 4 star hotels with distance less than 10 miles from city center and gives a list of the hotels" finished-at="2019-12-19T17:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourStars -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotels.tests.SearchFor4starHotelTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="567" started-at="2019-12-19T17:56:57Z" finished-at="2019-12-19T17:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hotels.tests.SearchFor4starHotelTest -->
+      <class name="com.hotels.tests.SearchFor3starHotelTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hotels.tests.SearchFor3starHotelTest@53b32d7]" name="setup" is-config="true" duration-ms="19347" started-at="2019-12-19T17:56:58Z" finished-at="2019-12-19T17:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="threeStars()[pri:1, instance:com.hotels.tests.SearchFor3starHotelTest@53b32d7]" name="threeStars" duration-ms="47994" started-at="2019-12-19T17:57:17Z" description="This method searches for 3 star hotels with distance less than 10 miles from city center, give a list of these hotels and finds if Hilton hotel is available or not " finished-at="2019-12-19T17:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeStars -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotels.tests.SearchFor3starHotelTest@53b32d7]" name="tearDown" is-config="true" duration-ms="526" started-at="2019-12-19T17:58:05Z" finished-at="2019-12-19T17:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hotels.tests.SearchFor3starHotelTest -->
+      <class name="com.hotels.tests.HotelsHomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotels.tests.HotelsHomePageTest@42e26948]" name="setUp" is-config="true" duration-ms="22656" started-at="2019-12-19T17:54:14Z" finished-at="2019-12-19T17:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getHotelsHomePageTitleTest()[pri:1, instance:com.hotels.tests.HotelsHomePageTest@42e26948]" name="getHotelsHomePageTitleTest" duration-ms="366" started-at="2019-12-19T17:54:37Z" description="This method verifies the title of the current page" finished-at="2019-12-19T17:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHotelsHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotels.tests.HotelsHomePageTest@42e26948]" name="tearDown" is-config="true" duration-ms="364" started-at="2019-12-19T17:54:37Z" finished-at="2019-12-19T17:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotels.tests.HotelsHomePageTest@42e26948]" name="setUp" is-config="true" duration-ms="12564" started-at="2019-12-19T17:58:06Z" finished-at="2019-12-19T17:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageActions()[pri:2, instance:com.hotels.tests.HotelsHomePageTest@42e26948]" name="homePageActions" duration-ms="9045" started-at="2019-12-19T17:58:18Z" description="This method chooses the destination, number of children, selects children&#039;s ages and submits the info on the page" finished-at="2019-12-19T17:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageActions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotels.tests.HotelsHomePageTest@42e26948]" name="tearDown" is-config="true" duration-ms="317" started-at="2019-12-19T17:58:27Z" finished-at="2019-12-19T17:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hotels.tests.HotelsHomePageTest -->
+    </test> <!-- Hotels Sanity Test -->
+  </suite> <!-- Hotels Test Sanity Suite -->
+</testng-results>
